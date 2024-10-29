@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WW - Tu Marca de Ropa</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 200px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>WW</h1>
+        <p>Estilo y moda en cada prenda</p>
+        <nav>
+            <a href="#productos">Productos</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección de Productos -->
+    <section id="productos" class="container">
+        <h2>Productos Destacados</h2>
+        <div class="products">
+            <!-- Producto 1 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Producto 1">
+                <h3>Sudadera WW</h3>
+                <p>$499 MXN</p>
+            </div>
+            <!-- Producto 2 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Producto 2">
+                <h3>Camiseta WW</h3>
+                <p>$299 MXN</p>
+            </div>
+            <!-- Producto 3 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Producto 3">
+                <h3>Gorra WW</h3>
+                <p>$199 MXN</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="container">
+        <h2>Sobre WW</h2>
+        <p>En WW, creemos en el poder de la moda para expresar personalidad y estilo. Nuestra misión es ofrecer prendas únicas y de alta calidad, diseñadas para que te sientas auténtico y seguro.</p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="container">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes alguna pregunta? Envíanos un mensaje:</p>
+        <form action="#" method="post">
+            <input type="text" placeholder="Nombre" required><br><br>
+            <input type="email" placeholder="Correo electrónico" required><br><br>
+            <textarea placeholder="Mensaje" required></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>&copy; 2024 WW. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
